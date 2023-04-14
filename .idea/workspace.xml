@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c036b86-a1a6-441d-8311-a8240086774d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Earthquake_Magnitude.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/SignificantEarthquakesDataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dataset/eqcat_CEUS1568-2018.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Earthquake_Magnitude - Shortcut.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Earthquake_Magnitude.pyproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Earthquake_Magnitude.pyproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Earthquake_Magnitude/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Earthquake_Magnitude/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Earthquake_Magnitude/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Earthquake_Magnitude/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Earthquake_Magnitude/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SavedRandomForestModel.joblib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/DataPreprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/creating_animation_gif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/magnitude.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/content/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/content/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/content/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/_references.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/jquery-1.10.2.intellisense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/jquery.validate-vsdoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/modernizr-2.6.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/respond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/app/scripts/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/static/img/world.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/loginpartial.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/earthquake_magnitude/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/earthquake_magnitude/landing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/earthquake_magnitude/magnitude.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/earthquake_magnitude/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20230406131500.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20230406132055.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20230406132309.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20230406132347.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20230406132428.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20230406132644.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20230406132910.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mprofile_20230406133014.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/.idea/COMP589-G5-develop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/Dataset/SignificantEarthquakesDataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/magnitude.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/magnitude.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../COMP589-G5-develop/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dataset/SignificantEarthquakesDataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Dataset/SignificantEarthquakesDataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MLClassificationModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MLClassificationModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RandomForestModel.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/../RandomForestModel.joblib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2OOYbtDtKcemdbSA8Ap2WXWZPDm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Django" type="PythonConfigurationType" factoryName="Python">
+      <module name="Earthquake_Magnitude" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.11 (Earthquake_Magnitude)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c036b86-a1a6-441d-8311-a8240086774d" name="Changes" comment="" />
+      <created>1681433174487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681433174487</updated>
+    </task>
+    <servers />
+  </component>
+</project>
