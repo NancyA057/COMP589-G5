@@ -1,6 +1,6 @@
 # importing essential libraries
 import numpy as np
-# from memory_profiler import profile
+from memory_profiler import profile
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 import pandas as pd
@@ -93,7 +93,8 @@ def prediction_model(user_date, user_time, user_lat, user_long):
     user_inp_data = pd.DataFrame({"Timestamp": [timestamp1], "Latitude": [user_lat], "Longitude": [user_long]})
     # print(user_inp_data.head)
     # user_inp_data = pd.DataFrame({"Latitude": [input_lat], "Longitude": [input_long]})
-    predicted_value = np.char.split(np.array2string(model.predict(user_inp_data)).replace("[", "").replace("]", ""))
-
-    print('Predicted Magnitude and Depth', predicted_value)
+    # predicted_value = np.char.split(np.array2string(model.predict(user_inp_data)).replace("[", "").replace("]", ""))
+    predicted_value = model.predict(user_inp_data)
+    # print(magnitude_output, depth_output)
+    # print('Predicted Magnitude and Depth', predicted_value)
     return predicted_value

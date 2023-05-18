@@ -5,12 +5,14 @@ from django import forms
 from django.shortcuts import render
 import datetime
 
-# from memory_profiler import profile
-
+from memory_profiler import profile
+from django.http import FileResponse, Http404
+from django.conf import settings
+import os
 from app import magnitude
 import time
 
-GOOGLE_MAPS_API_KEY = 'AIzaSyApp6dlCxvAF4Q197JGAvqgnZj5TjUxHZQ'
+GOOGLE_MAPS_API_KEY = 'AIzaSyAkE9DxAq49v0uUlHqMox0Z5mLwol5ckwA'
 
 
 # @profile
@@ -79,11 +81,13 @@ def my_view(request):
 
             # start1 = time.time()
             result = magnitude.MLClassifier(date_string, time_string, latitude, longitude)
+            magnitude_output, depth_output = result[0]
             # print("\nTime taken for ML preprocessing and Prediction Module to run: --- %.2f seconds --- " % (
             #             time.time() - start1))
 
             # Render the HTML template with the result
-            return render(request, 'earthquake_magnitude/magnitude.html', {'result': result})
+            return render(request, 'earthquake_magnitude/magnitude.html', {'magnitude_output': round(magnitude_output, 2),
+                                                                           'depth_output': round(depth_output, 2)})
         else:
 
             return render(request, 'earthquake_magnitude/magnitude.html', {'error': 'Datetime field is required.'})
@@ -92,3 +96,23 @@ def my_view(request):
         # Set the initial value of the datetime field
         initial_datetime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         return render(request, 'earthquake_magnitude/magnitude.html', {'initial_datetime': initial_datetime})
+
+# @profile
+def video_player(request, video_id):
+    video_files = {
+        '1': 'blender_1.mp4',
+        '2': 'blender_2.mp4',
+        '3': 'blender_3.mp4',
+        '4': 'blender_4_5.mp4',
+        '5': 'blender_4_5.mp4',
+        '6': 'blender_6.mp4',
+        '7': 'blender_7.mp4',
+        '8': 'blender_8.mp4',
+    }
+
+    video_file = video_files.get(video_id)
+    if not video_file:
+        raise Http404('Video not found')
+
+    video_path = os.path.join(settings.MEDIA_ROOT, video_file)
+    return FileResponse(open(video_path, 'rb'), content_type='video/mp4')
