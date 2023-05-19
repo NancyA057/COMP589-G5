@@ -63,6 +63,6 @@ def data_cleaning(earth_data):
 # @profile
 def data_preprocessing():
     # read data from file
-    earth_data = pd.read_csv("../Dataset/eqcat_CEUS1568-2018.csv")
+    earth_data = pd.read_csv("Dataset/eqcat_CEUS1568-2018.csv")
     clean_data = data_cleaning(earth_data)
-    clean_data.to_csv("../Dataset/PreprocessedEarthquakesDataset.csv", index=False)
+    clean_data.to_csv("Dataset/PreprocessedEarthquakesDataset.csv", index=False)

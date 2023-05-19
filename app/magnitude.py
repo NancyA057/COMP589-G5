@@ -33,7 +33,7 @@ def MLClassifier(user_date, user_time, user_lat, user_long):
 # function to append the timestamp column
 def create_timestamp():
     # reading the dataset for training
-    dataset = pd.read_csv("../Dataset/PreprocessedEarthquakesDataset.csv")
+    dataset = pd.read_csv("Dataset/PreprocessedEarthquakesDataset.csv")
 
     # creating the data_frame to be used for training with only essential columns
     data_frame = dataset.copy()
